@@ -1,5 +1,6 @@
 class Solution {
 public:
+    //very important problem. keep it in mind
     void rotate(vector<int>& nums, int k) {
         int l = nums.size();
         k = k%l;
