@@ -29,7 +29,6 @@ public:
         ListNode* t = prev;
         ListNode* f = head;
         while(t != f && t && f){
-                cout<<"f:"<<f->val<<"t:"<<t->val<<endl;
                 if(f->val == t->val){
                     f = f->next;
                     t = t->next;
